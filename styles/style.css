@@ -99,15 +99,22 @@
   background-position: center;
 }
 
+.hero-section {
+  position: relative;
+}
+
 /*The Card Ontop the Hero*/
 .hero-description {
   width: 600px;
+  top: 360px;
+  left: 64px;
   background-color: #ffffff;
   border-radius: 1rem;
   box-shadow:
     0 12px 24px -6px rgba(24, 26, 42, 0.12),
     inset 0 0 0 1px #e8e8ea;
   padding: 40px;
+  position: absolute;
 }
 
 .badge-container {

@@ -80,3 +80,21 @@
   top: 6px;
   pointer-events: none;
 }
+
+/*Hero Section Starts here!*/
+
+.main-section {
+  padding: 16px;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.hero-img {
+  min-height: 600px;
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  border: none;
+  background-position: center;
+}

@@ -5,3 +5,7 @@
 .navbar {
   display: none;
 }
+
+.hero-img {
+  min-height: 250px;
+}
